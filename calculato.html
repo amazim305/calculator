@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+          <input type="reset" id="display" placeholder="calculator off">
+        
+        <div class="buttons">
+            <button id="alldelete" onclick="ac('')">AC</button>
+            <button onclick="onedelete('')">&larr;</button>
+            <button onclick="azim('%')">%</button>
+            <button onclick="azim('/')">/</button>
+            <button onclick="azim('7')">7</button>
+            <button onclick="azim('8')">8</button>
+            <button onclick="azim('9')">9</button>
+            <button onclick="azim('*')">*</button>
+            <button onclick="azim('4')">4</button>
+            <button onclick="azim('5')">5</button>
+            <button onclick="azim('6')">6</button>
+            <button onclick="azim('-')">-</button>
+            <button onclick="azim('1')">1</button>
+            <button onclick="azim('2')">2</button>
+            <button onclick="azim('3')">3</button>
+            <button onclick="azim('+')">+</button>
+            <button onclick="azim('0')">0</button>
+            <button onclick="azim('.')">.</button>
+            <button onclick="azim('00')">00</button>
+            <button id="man" onclick="result('')">=</button>
+        </div>
+
+    </div>
+    <script src="calculator.js">
+       
+    </script>
+</body>
+</html>

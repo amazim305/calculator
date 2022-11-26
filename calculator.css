@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+
+#display {
+    width: 390px;
+
+    height: 100px;
+    text-align: right;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    color: aqua;
+    border-color: azure;
+    background-color: rgb(247, 231, 231);
+    font-size: 35px;
+   margin: 20px 3px 20px 3px;
+   
+}
+
+.buttons {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+     rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+       rgba(0, 0, 0, 0.06) 0px 2px 1px,
+        rgba(0, 0, 0, 0.09) 0px 4px 2px,
+         rgba(0, 0, 0, 0.09) 0px 8px 4px,
+          rgba(0, 0, 0, 0.09) 0px 16px 8px,
+           rgba(0, 0, 0, 0.09) 0px 32px 16px;
+           width: 400px;
+           height: 400px;
+           
+}
+.buttons button{
+    width: 96px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.17)
+     0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15)
+       0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.1)
+         0px -79px 40px 0px inset,
+          rgba(0, 0, 0, 0.06)
+           0px 2px 1px, rgba(0, 0, 0, 0.09)
+            0px 4px 2px, rgba(0, 0, 0, 0.09)
+             0px 8px 4px, rgba(0, 0, 0, 0.09) 
+             0px 16px 8px, rgba(0, 0, 0, 0.09)
+              0px 32px 16px;
+              border-radius: 70%;
+              font-size: 30px;
+              background-color: rgb(167, 96, 73);
+              color: aqua;
+              border-top: 1px solid rgb(13, 150, 132);
+              border-left: 1px solid rgb(182, 23, 102);
+              border-bottom: 1px solid rgb(162, 236, 12);
+              border-right: 1px solid rgb(23, 196, 129);
+    
+}
+#alldelete{
+    background-color: red;
+}
+#man{
+    background-color: rgb(33, 192, 105);
+}
+button:hover{
+    background-color: rgb(103, 27, 202);
+    transition: 0.4s ease-in-out;
+}
